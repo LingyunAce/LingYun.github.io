@@ -1,0 +1,107 @@
+# Butterfly theme configuration
+# Full reference: https://butterfly.js.org/posts/4aa8abbe/
+
+# Navigation menu (top of every page)
+menu:
+  首页: / || fa-solid fa-house
+  归档: /archives/ || fa-solid fa-box-archive
+  作品集: /projects/ || fa-solid fa-briefcase
+  关于: /about/ || fa-solid fa-user
+  博客 || fa-solid fa-feather-pointed:
+    标签: /tags/ || fa-solid fa-tags
+    分类: /categories/ || fa-solid fa-folder-open
+
+# Code block style
+highlight_theme: light
+highlight_theme_dark: dark
+code_copy: enable
+code_lang: enable
+code_widget: copy
+code_expanded: false
+code_height_limit: 200
+
+# Sidebar
+sidebar:
+  position: right
+  display: always
+
+# Avatar
+avatar:
+  img: /img/avatar.svg
+  effect: true
+
+# Social links (icons in header)
+social:
+  GitHub: https://github.com/[你的GitHub用户名] || fa-brands fa-github
+  邮箱: mailto:[你的邮箱] || fa-solid fa-envelope
+  知乎: https://www.zhihu.com/people/[你的知乎ID] || fa-brands fa-zhihu
+  掘金: https://juejin.cn/user/[你的掘金ID] || fa-brands fa-zhihu
+  微博: https://weibo.com/[你的微博ID] || fa-brands fa-weibo
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: <p>Powered by <a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a> & <a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></p>
+  copyright: false
+
+# Related articles
+related_post:
+  enable: true
+  limit: 6
+
+# Local search
+local_search:
+  enable: true
+  preload: true
+  CDN:
+
+# Dark mode
+darkmode:
+  enable: true
+  default: light
+  dark: dark
+  toggle:
+    enable: true
+    type: preference
+
+# Code copy button
+copy_button:
+  enable: true
+  show_text: true
+
+# Comments (DISABLED by default)
+comments:
+  use: []
+
+# Analytics (DISABLED by default)
+analytics:
+  enable: false
+
+# Advertisement (DISABLED by default)
+advertisement: false
+
+# Mathjax / KaTeX (off by default)
+mathjax:
+  enable: false
+katex:
+  enable: false
+
+# Reward (off)
+reward:
+  enable: false
+
+# Share buttons (off)
+share:
+  enable: false
+
+# Article reading progress bar
+reading_progress:
+  enable: false
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/css/portfolio.styl">
+  bottom:
+    - <script src="/js/projects-filter.js" defer></script>

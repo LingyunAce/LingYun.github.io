@@ -1,0 +1,89 @@
+# Hexo site configuration
+# Documentation: https://hexo.io/docs/configuration
+
+# Site
+title: [你的名字]
+subtitle: [一句话介绍]
+description: [个人简介，1-2 句话，用于 SEO meta 描述]
+keywords: [关键词1, 关键词2, 关键词3]
+author: [你的名字]
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+# Replace 'your-github-username' with your actual GitHub username before deploying
+url: https://your-github-username.github.io
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude:
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ""
+
+# Plugins (loaded in this order)
+plugins:
+  - hexo-renderer-pug
+  - hexo-renderer-stylus
+  - hexo-abbrlink
+  - hexo-word-counter
+
+# abbrlink
+abbrlink:
+  alg: crc16
+  rep: hex
+  auto_space:
+  per_posts: true
+
+# Markdown
+marked:
+  gfm: true
+  pedantic: false
+  breaks: false
+
+# Search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Deployment
+# Replace with your actual repo URL before deploying
+deploy:
+  type: git
+  repo: https://github.com/your-github-username/your-github-username.github.io.git
+  branch: gh-pages
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
+# Theme
+theme: butterfly

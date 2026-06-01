@@ -1,0 +1,27 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio website built with Hexo + Butterfly",
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "server": "hexo server",
+    "deploy": "hexo deploy",
+    "new": "hexo new"
+  },
+  "hexo": {
+    "version": "8.1.2"
+  },
+  "devDependencies": {
+    "hexo": "^8.1.2",
+    "hexo-abbrlink": "^2.2.1",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-theme-butterfly": "^5.5.4",
+    "hexo-word-counter": "^0.2.2"
+  }
+}
