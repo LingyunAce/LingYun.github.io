@@ -2,11 +2,13 @@
 # Documentation: https://hexo.io/docs/configuration
 
 # Site
-title: [你的名字]
-subtitle: [一句话介绍]
-description: [个人简介，1-2 句话，用于 SEO meta 描述]
+# NOTE: bracketed placeholders below MUST be quoted — otherwise YAML
+# parses them as arrays and downstream `.replace()` calls crash.
+title: "[你的名字]"
+subtitle: "[一句话介绍]"
+description: "[个人简介，1-2 句话，用于 SEO meta 描述]"
 keywords: [关键词1, 关键词2, 关键词3]
-author: [你的名字]
+author: "[你的名字]"
 language: zh-CN
 timezone: Asia/Shanghai
 
