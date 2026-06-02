@@ -11,10 +11,10 @@
     "new": "hexo new"
   },
   "hexo": {
-    "version": "8.1.2"
+    "version": "7.3.0"
   },
   "devDependencies": {
-    "hexo": "^8.1.2",
+    "hexo": "^7.3.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
@@ -22,6 +22,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-theme-butterfly": "^5.5.4",
+    "hexo-util": "^4.0.0",
     "hexo-word-counter": "^0.2.2"
   }
 }
