@@ -6,9 +6,9 @@ type: about
 
 ## 👋 你好
 
-我是 **[你的名字]**，一名 [职业，例如：全栈工程师 / 设计师 / 研究生]。
+我是 **hulingyun**，一名独立开发者 / 工程师。
 
-[在这里写一段 2-3 句的自我介绍。写什么吸引你、你在做什么、你想寻找什么样的机会。]
+这里记录我的技术实践、项目经验，以及一些日常思考。欢迎通过 GitHub 或邮件与我交流。
 
 ## 🛠️ 技术栈
 
@@ -27,10 +27,9 @@ type: about
 
 - 独立开发 / Side projects
 - 写技术博客
-- [其他兴趣]
+- 探索新技术
 
 ## 📬 联系方式
 
-- 邮箱：[你的邮箱]
-- GitHub：[@你的GitHub用户名](https://github.com/你的GitHub用户名)
-- 知乎：[你的知乎ID](https://www.zhihu.com/people/你的知乎ID)
+- 邮箱：543491395@qq.com
+- GitHub：[@LingyunAce](https://github.com/LingyunAce)

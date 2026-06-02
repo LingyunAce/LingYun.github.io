@@ -4,17 +4,17 @@
 # Site
 # NOTE: bracketed placeholders below MUST be quoted — otherwise YAML
 # parses them as arrays and downstream `.replace()` calls crash.
-title: "[你的名字]"
-subtitle: "[一句话介绍]"
-description: "[个人简介，1-2 句话，用于 SEO meta 描述]"
-keywords: [关键词1, 关键词2, 关键词3]
-author: "[你的名字]"
+title: "hulingyun"
+subtitle: "独立开发者 / 工程师，欢迎来到我的个人作品集"
+description: "记录技术实践、项目经验与日常思考的个人博客"
+keywords: [个人博客, 作品集, 技术]
+author: "hulingyun"
+email: 543491395@qq.com
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-# Replace 'your-github-username' with your actual GitHub username before deploying
-url: https://your-github-username.github.io
+url: https://LingyunAce.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -80,10 +80,10 @@ search:
   format: html
 
 # Deployment
-# Replace with your actual repo URL before deploying
+# Repo URL targets the user's actual GitHub Pages repository
 deploy:
   type: git
-  repo: https://github.com/your-github-username/your-github-username.github.io.git
+  repo: https://github.com/LingyunAce/LingYun.github.io.git
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 

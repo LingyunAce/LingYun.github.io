@@ -32,11 +32,8 @@ avatar:
 
 # Social links (icons in header)
 social:
-  GitHub: https://github.com/[你的GitHub用户名] || fa-brands fa-github
-  邮箱: mailto:[你的邮箱] || fa-solid fa-envelope
-  知乎: https://www.zhihu.com/people/[你的知乎ID] || fa-brands fa-zhihu
-  掘金: https://juejin.cn/user/[你的掘金ID] || fa-brands fa-zhihu
-  微博: https://weibo.com/[你的微博ID] || fa-brands fa-weibo
+  GitHub: https://github.com/LingyunAce || fa-brands fa-github
+  邮箱: mailto:543491395@qq.com || fa-solid fa-envelope
 
 # Footer
 footer:
